@@ -1,0 +1,81 @@
+window:
+  dimensions:
+          columns: 140
+          lines: 35
+  padding:
+          x: 10
+          y: 10
+  
+  decorations: none
+
+background_opacity: 1
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+colors:
+  primary:
+    background: '0x292d3e'
+    foreground: '0xbbc5ff'
+
+  cursor:
+    text: '0x44475a'
+    cursor: '0xf8f8f2'
+
+  normal:
+    black:   '0x292d3e'
+    red:     '0xf07178'
+    green:   '0xc3e88d'
+    yellow:  '0xffcb6b'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x89ddff'
+    white:   '0xd0d0d0'
+
+  bright:
+    black:   '0x434758'
+    red:     '0xff8b92'
+    green:   '0xddffa7'
+    yellow:  '0xffe585'
+    blue:    '0x9cc4ff'
+    magenta: '0xe1acff'
+    cyan:    '0xa3f7ff'
+    white:   '0xffffff'
+
+  indexed_colors: []
+
+# Font configuration
+font:
+  normal:
+    style: Regular
+    family: Fira Code
+  #  bold:
+  #    family: Fira Code
+  #    style: Bold
+  #  italic:
+  #    family: Fira Code
+  #    style: Italic
+  #  bold_italic:
+  #    family: Fira Code
+  #    style: Bold Italic
+  #  size: 12.0
+  #
+  #  offset:
+  #    x: 0
+  #    y: 0
+  #  glyph_offset:
+  #    x: 0
+  #    y: 0
+
+draw_bold_text_with_bright_colors: true
+
+cursor:
+  style: Block
+
+working_directory: /home/amitav
+
+key_bindings:
+ - { key: V, mods: alt, action: Paste }
+ - { key: C, mods: alt, action: Copy }
+
